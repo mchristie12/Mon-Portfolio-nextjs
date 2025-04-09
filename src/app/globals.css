@@ -1,42 +1,174 @@
+
+/* === Palette de couleurs === */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --rose-clair: #F8F8F8;
+  --lavande-pale: #FFF0F5;
+  --blanc-gris: #F8F8F8;
+  --taupe-rose: #D3B8AE;
+  --texte-fonce: #333;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
+/* Reset de base */
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-a {
-  color: inherit;
+/* Corps de page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--texte-fonce);
+  background-color: var(--lavande-pale);
+}
+
+/* Barre de navigation */
+.navbar {
+  background-color: var(--rose-clair) !important;
+}
+
+.navbar-brand,
+.nav-link,
+.btn {
+  color: var(--texte-fonce) !important;
+}
+
+.nav-link:hover {
+  color: var(--taupe-rose) !important;
+}
+
+/* Footer toujours visible en bas de l'écran */
+footer {
+  background-color: var(--blanc-gris);
+  color: var(--texte-fonce);
+  padding: 0.5rem;
+  text-align: center;
+  border-top: 0.5px solid var(--taupe-rose);
+
+  position: fixed;
+  /* Fixe le footer */
+  bottom: 0;
+  /* Le place en bas de la fenêtre */
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  /* Pour qu'il soit au-dessus d'autres éléments si nécessaire */
+}
+
+footer a {
+  color: var(--taupe-rose);
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* Classe d'erreur */
+.error {
+  color: red;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-pic {
+  margin-bottom: 1rem;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Section À propos */
+.about-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-card {
+  border-left: 4px solid var(--taupe-rose);
+  background: linear-gradient(to bottom right, var(--rose-clair), var(--lavande-pale));
+  border-radius: 12px;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Section Mes Projets */
+.projects-section {
+  margin-bottom: 2rem;
+}
+
+.projects-section h2 {
+  margin-bottom: 1rem;
+}
+
+.projects-section p {
+  margin-bottom: 0.5rem;
+}
+
+/* Bouton personnalisé */
+.btn-custom {
+  background-color: var(--taupe-rose);
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+}
+
+.btn-custom:hover {
+  background-color: #bfa49a;
+  color: white;
+}
+
+/* Ajout d'un style pour les cartes des projets */
+.project-card {
+  background: linear-gradient(to bottom right, var(--rose-clair), var(--lavande-pale));
+  border-radius: 12px;
+  padding: 1.5rem;
+  line-height: 1.6;
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Messages d'erreur en rouge */
+.error {
+  color: red;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Appliquer l'animation aux cartes de témoignage */
+.testimonial-item {
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Bouton personnalisé */
+.btn-custom {
+  background-color: #D3B8AE;
+  
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.custom-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
 }
