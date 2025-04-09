@@ -68,20 +68,20 @@ Accédez ensuite à : http://localhost:3000
 ## 📸 Aperçu du portfolio
 
 ### 🔐 Connexion
-![Connexion](./public/images/screenshot-login.png)
+![Connexion](/images/screenshot-login.png)
 
 ### 📝 Inscription
-![Inscription](./public/images/screenshot-inscription.png)
+![Inscription](/images/screenshot-inscription.png)
 
 ### 🏠 Accueil
-![Accueil](./public/images/screenshot-home.png)
+![Accueil](/images/screenshot-home.png)
 
 ### 📁 Projet 1
-![Projet 1](./public/images/projet1-screenshot.png)
+![Projet 1](/images/projet1-screenshot.png)
 
 ### 🛍️ Projet 2
-![Projet 2](./public/images/projet2-screenshot.png)
+![Projet 2](/images/projet2-screenshot.png)
 
 ### 💬 Témoignages
-![Témoignages](./public/images/screenshot-temoignages.png)
+![Témoignages](/images/screenshot-temoignages.png)
 
