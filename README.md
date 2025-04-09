@@ -1,10 +1,75 @@
-# Mon-Portfolio-nextjs
+# Mon-Portfolio-nextjs 🎓
 
-Ce portfolio a été conçu dans le cadre d’un projet scolaire afin de mettre en valeur mes compétences en développement web avec Next.js.  
-Il comprend des pages dynamiques, une authentification simulée avec Redux, un système de témoignages interactif, et une structure fullstack avec Node.js, Express, Sequelize et MySQL.
+Ce portfolio a été conçu dans le cadre d’un projet scolaire afin de mettre en valeur mes compétences en développement web avec Next.js, Bootstrap CSS.
 
-## Lancer le projet en local
+Il comprend des pages dynamiques, une authentification simulée via Redux, un système de témoignages interactif, une navigation protégée, et deux projets réalisés.
+
+
+## 🚀 Lancer le projet en local
 
 ```bash
 npm install
 npm run dev
+Accédez ensuite à : http://localhost:3000
+
+🧠 Technologies utilisées
+
+    ✅ Next.js
+
+    ✅ JavaScript
+
+    ✅ Bootstrap CSS
+
+    ✅ Redux Toolkit (authentification simulée)
+
+    ✅ localStorage (sauvegarde des utilisateurs et témoignages)
+
+    
+🗂️ Pages du projet
+
+    Accueil : Présentation de mon profil, compétences, et lien vers les projets.
+
+    Projet 1 : Application de gestion d’événements scolaires.
+
+    Projet 2 : Boutique en ligne.
+
+    Témoignages : Envoi et affichage d’avis via Redux + localStorage.
+
+    Connexion / Inscription : Formulaires simulés avec validation.
+
+    Contact : Page de contact avec formulaire simple.
+
+📸 Aperçu du portfolio
+    🏠 Accueil
+
+    📁 Projet 1
+
+    🛍️ Projet 2
+
+    💬 Témoignages
+
+✅ Fonctionnalités techniques
+
+    Authentification simulée avec Redux
+
+    Formulaire de témoignage fonctionnel
+
+    Routes protégées selon l’état de connexion
+
+    Responsive mobile / tablette / PC
+
+    Navigation fluide entre les pages
+
+    Stockage local des données avec localStorage
+
+🎓 Objectif pédagogique
+
+    Structurer une application Next.js
+
+    Gérer l’état global avec Redux
+
+    Créer une interface responsive et claire
+
+    Simuler une authentification sans backend
+
+    Présenter deux projets réels dans un portfolio
