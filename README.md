@@ -4,12 +4,10 @@ Ce portfolio a été conçu dans le cadre d’un projet scolaire afin de mettre 
 
 Il comprend des pages dynamiques, une authentification simulée via Redux, un système de témoignages interactif, une navigation protégée, et deux projets réalisés.
 
-
-## 🚀 Lancer le projet en local
-
 ```bash
 npm install
 npm run dev
+```
 Accédez ensuite à : http://localhost:3000
 
 🧠 Technologies utilisées
@@ -85,3 +83,6 @@ Accédez ensuite à : http://localhost:3000
 ### 💬 Témoignages
 ![Témoignages](/images/screenshot-temoignages.png)
 
+
+
+   
